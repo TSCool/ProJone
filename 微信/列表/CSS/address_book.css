@@ -1,0 +1,82 @@
+#addall{
+	height: 100%;
+	margin-top: 67px;
+	display:none;
+	width: 100%;
+}
+#address_book{
+	height: 100%;
+	box-shadow: 0px 0px 10px gray;
+}
+#address_left{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+#address_right{
+	width: 5%;
+	height: 100%;
+	display: inline-block;
+	position: fixed;
+	top:67px;
+	right: 0px;
+}
+.letter{
+	height: 20px;
+	font-size: 12px;
+	color: #424242;
+	background-color: #F5F5F5;
+}
+.letter p{
+	width: 99%;
+}
+.address_list{
+	width: 95%;
+	height: 40px;
+	align-items: center;
+	border-bottom: 1px #E0E0E0 solid;
+}
+.address_imgall{
+	width: 35px;
+	height: 35px;
+	margin-left: 10px;
+}
+.address_font{
+	width: 90%;
+	height: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	margin-left: 10px;
+	color: #424242;
+	font-weight: 200;
+}
+#address_img1{
+	background-image: url(../../img/myimage/头像1.jpg);
+	background-size: contain;
+}
+#address_img2{
+	background-image: url(../../img/myimage/头像5.jpg);
+	background-size: contain;
+}
+#address_img3{
+	background-image: url(../../img/myimage/头像2.jpg);
+	background-size: contain;
+}
+#address_img4{
+	background-image: url(../../img/myimage/头像3.jpg);
+	background-size: contain;
+}
+#address_img5{
+	background-image: url(../../img/myimage/头像4.jpg);
+	background-size: contain;
+}
+#jiantou{
+	transform: rotateZ(-90deg);
+}
+#address_right p{
+	width: 95%;
+	text-align: center;
+	font-size: 10PX;
+	color: #212121;
+	font-weight: 500;
+}

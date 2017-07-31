@@ -1,0 +1,95 @@
+#contentall{
+	height: 100%;
+	box-shadow: 0px 0px 10px gray;
+	color: brown;
+	margin-top: 67px;
+	display: inline-block;
+}
+.content{
+	height: 55px;
+	border:0px;
+	border-bottom: 1px #BDBDBD solid;
+	margin-top: 3px;
+	background-color: #F5F5F5;
+}
+.content_left{
+	width: 87%;
+	height: 52px;
+}
+.content_right{
+	width:13%;
+	height: 52px;
+	align-items: flex-start;
+	flex-flow: row-reverse wrap;
+	color: #616161;
+	font-size: 13px;
+}
+.Avatar{
+	width: 50px;
+	height: 50px;
+	background-size:contain;
+	margin-left: 10px;
+}
+#avatar_1{
+	background-image: url(../../img/myimage/word10.jpg);
+}
+#avatar_2{
+	background-image: url(../../img/myimage/头像1.jpg);
+}
+#avatar_3{
+	background-image: url(../../img/myimage/头像2.jpg);
+}
+#avatar_4{
+	background-image: url(../../img/myimage/头像3.jpg);
+}
+#avatar_5{
+	background-image: url(../../img/myimage/头像4.jpg);
+}
+#avatar_6{
+	background-image: url(../../img/myimage/头像5.jpg);
+}
+#avatar_7{
+	background-image: url(../../img/myimage/头像6.jpg);
+}
+#avatar_8{
+	background-image: url(../../img/myimage/头像7.jpg);
+}
+#avatar_9{
+	background-image: url(../../img/myimage/头像8.jpg);
+}
+#avatar_10{
+	background-image: url(../../img/myimage/头像9.jpg);
+}
+#avatar_11{
+	background-image: url(../../img/myimage/头像10.jpg);
+}
+#avatar_12{
+	background-image: url(../../img/myimage/头像11.jpg);
+}
+#infor{
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	border-radius: 50%;
+	position: relative;
+	left: 41px;
+	text-align: center;
+	line-height: 15px;
+	color: white;
+	font-size: 5px;
+}
+.speak{
+	width:75%;
+	height: 50px;
+	margin-left: 10px;
+}
+.speak p:first-child{
+	color: #212121;
+	font-size: 15px;
+	font-weight: 580;
+	margin-top: 14px;
+}
+.speak p:last-child{
+	color: #616161;
+	font-size: 12px;
+}

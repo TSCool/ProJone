@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<!--如果在移动端显示，需要此行代码 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0，maximum-scale=1.0,user-scalable=0">
+			<link rel="stylesheet" type="text/css" href="CSS/piblic.css" />
+			<link rel="stylesheet" type="text/css" href="CSS/微信.css" />
+			<link rel="stylesheet" type="text/css" href="CSS/find.css" />
+			<link rel="stylesheet" type="text/css" href="CSS/address_book.css" />
+			<link rel="stylesheet" type="text/css" href="CSS/friend.css" />
+			<link rel="stylesheet" type="text/css" href="CSS/tail.css" />
+			<script type="text/javascript" src="CSS/alert.js"></script>
+	</head>
+
+	<body id="bo">
+		<div id="contain" class="width">
+			<!--状态栏开始-->
+			<div id="statusbar" class="width flex justify-content flex-flow white">
+				<div class="fenge flex align-item">
+					<div>
+						4G LTE
+					</div>
+					<div id="xinhao" class="flex flex-end justify-bet">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div id="wang" class="flex flex-end justify-bet">
+						25k/s
+					</div>
+				</div>
+				<div class="fenge">
+					15:21
+				</div>
+				<div class="flex row-reverse li align-item fenge">
+					<li class="energy">
+						<div></div>
+						<div></div>
+					</li>
+					<li>96%</li>
+				</div>
+			</div>
+			<!--状态栏结束-->
+			<!--微信头部-->
+			<div id="headall" class="width">
+				<div class="width flex justify-content white" id="top">
+					<div id="top_left" class="flex">
+						<div>微信(2)</div>
+					</div>
+					<div id="top_right" class="flex">
+						<div class="flex">
+							<div id="search"></div>
+							<div id="more">
+								<div id="heng"></div>
+								<div id="shu"></div>
+								<div id="alert">
+									<div class="tanchu flex justify-content">
+										<div class="tan_left justify-content flex">
+											<div class="tanimg"></div>
+										</div>
+										<div class="tan_right flex">发起群聊</div>
+									</div>
+									<div class="tanchu flex justify-content">
+										<div class="tan_left justify-content flex">
+											<div class="tanimg_2"></div>
+										</div>
+										<div class="tan_right flex">添加朋友</div>
+									</div>
+									<div class="tanchu flex justify-content">
+										<div class="tan_left justify-content flex">
+											<div class="tanimg_3"></div>
+										</div>
+										<div class="tan_right flex">扫一扫</div>
+									</div>
+									<div class="tanchu flex justify-content">
+										<div class="tan_left justify-content flex">
+											<div class="tanimg_4"></div>
+										</div>
+										<div class="tan_right flex">首付款</div>
+									</div>
+									<div class="tanchu flex justify-content">
+										<div class="tan_left justify-content flex">
+											<div class="tanimg_5"></div>
+										</div>
+										<div class="tan_right flex">帮助与反馈</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--微信头部结束-->
+			<!--微信底部按钮-->
+			<div id="bootall" class="width">
+				<div id="boot" class="flex justify-content width">
+					<div id="boot_1" class="flex justify-content">
+						<div id="tu_1">
+							<div class="tu" id="img_1"></div>
+							<p>微信</p>
+						</div>
+					</div>
+					<div id="boot_2" class="flex justify-content">
+						<div id="tu_2">
+							<div class="tu" id="img_2"></div>
+							<p>通讯录</p>
+						</div>
+					</div>
+					<div id="boot_3" class="flex justify-content">
+						<div id="tu_3">
+							<div class="tu" id="img_3"></div>
+							<p>发现</p>
+						</div>
+					</div>
+					<div id="boot_4" class="flex justify-content">
+						<div id="tu_4">
+							<div class="tu" id="img_4"></div>
+							<p>我</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--微信底部按钮结束-->
+			<!--内容部分-->
+			<div id="contentall" class="width">
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_1">
+							<div id="infor">
+								1
+							</div>
+						</div>
+						<div class="speak">
+							<p>其乐融融</p>
+							<p>老王每次来吃饭都忘带钱...</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_2">
+
+						</div>
+						<div class="speak">
+							<p>微微</p>
+							<p>身为一个资深女光棍，别人：...</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_3">
+
+						</div>
+						<div class="speak">
+							<p>菲儿</p>
+							<p>明天有时间吗，咱...</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_4">
+
+						</div>
+						<div class="speak">
+							<p>王者小分队</p>
+							<p style="color: brown;">[语音]</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_5">
+
+						</div>
+						<div class="speak">
+							<p>Dark | 暴脾气</p>
+							<p>老弟你啥时候来玩啊，咱们...</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_6">
+
+						</div>
+						<div class="speak">
+							<p>工作室</p>
+							<p>今天都学的什么呀，都来...</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_7">
+
+						</div>
+						<div class="speak">
+							<p>AS烟酒不沾</p>
+							<p style="color: brown;">[语音]</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_8">
+
+						</div>
+						<div class="speak">
+							<p>zero</p>
+							<p>老铁咱啥时候去吃饭啊，我现...</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_9">
+
+						</div>
+						<div class="speak">
+							<p>小李子</p>
+							<p>老大，咱们明天开会，不要忘...</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_10">
+
+						</div>
+						<div class="speak">
+							<p>隔壁老王</p>
+							<p>有事没事别老是出来瞎...</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_11">
+
+						</div>
+						<div class="speak">
+							<p>小王八</p>
+							<p>叶鹏新是个王八蛋...</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+
+				<div class="content flex justify-bet">
+					<div class="flex content_left">
+						<div class="Avatar" id="avatar_12">
+
+						</div>
+						<div class="speak">
+							<p>阿班</p>
+							<p>少年阿班你现在咋又胖了呢，该...</p>
+						</div>
+					</div>
+					<div class="flex content_right">
+						<div>20:21</div>
+					</div>
+				</div>
+			</div>
+			<!--内容部分结束-->
+
+			<!--发现页-->
+			<div id="findall" class="width">
+				<div class="width flex justify-content find_list" id="friendlink">
+					<div class="find_left flex">
+						<div class="find_img_1 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>朋友圈</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+						<div class="find_right_imgfirst">
+							<div id="dongtai">
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="width flex justify-content find_list">
+					<div class="find_left flex">
+						<div class="find_img_2 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>扫一扫</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+						<div class="find_right_img">
+
+						</div>
+					</div>
+				</div>
+
+				<div class="width flex justify-content find_list margintop">
+					<div class="find_left flex">
+						<div class="find_img_3 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>摇一摇</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+
+					</div>
+				</div>
+
+				<div class="width flex justify-content find_list">
+					<div class="find_left flex">
+						<div class="find_img_4 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>附近的人</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+
+					</div>
+				</div>
+
+				<div class="width flex justify-content find_list margintop">
+					<div class="find_left flex">
+						<div class="find_img_5 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>购物</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+
+					</div>
+				</div>
+
+				<div class="width flex justify-content find_list">
+					<div class="find_left flex">
+						<div class="find_img_6 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>游戏</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+						<div class="find_right_imgend">
+							<div id="game">
+
+							</div>
+						</div>
+						<p>MOBA桌游放送</p>
+					</div>
+				</div>
+			</div>
+			<!--发现页结束-->
+
+			<!--通讯录开始-->
+			<div id="addall">
+				<div id="address_book" class="flex justify-content">
+					<div id="address_left">
+						<div class="letter flex justify-content">
+							<p>朋友推荐</p>
+						</div>
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img1"></div>
+							<div class="address_font">
+								群聊
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img2"></div>
+							<div class="address_font">
+								标签
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img3"></div>
+							<div class="address_font">
+								公众号
+							</div>
+						</div>
+						<div class="letter flex justify-content">
+							<p>A</p>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img4"></div>
+							<div class="address_font">
+								啊微
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img5"></div>
+							<div class="address_font">
+								AS滴酒不沾
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img1"></div>
+							<div class="address_font">
+								好半生醉泪酒一杯
+							</div>
+						</div>
+						<div class="letter flex justify-content">
+							<p>B</p>
+						</div>
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img4"></div>
+							<div class="address_font">
+								啊微
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img5"></div>
+							<div class="address_font">
+								AS滴酒不沾
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img1"></div>
+							<div class="address_font">
+								好半生醉泪酒一杯
+							</div>
+						</div>
+						<div class="letter flex justify-content">
+							<p>C</p>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img4"></div>
+							<div class="address_font">
+								啊微
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img5"></div>
+							<div class="address_font">
+								AS滴酒不沾
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img1"></div>
+							<div class="address_font">
+								好半生醉泪酒一杯
+							</div>
+						</div>
+						<div class="letter flex justify-content">
+							<p>D</p>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img4"></div>
+							<div class="address_font">
+								啊微
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img5"></div>
+							<div class="address_font">
+								AS滴酒不沾
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img1"></div>
+							<div class="address_font">
+								好半生醉泪酒一杯
+							</div>
+						</div>
+						<div class="letter flex justify-content">
+							<p>E</p>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img4"></div>
+							<div class="address_font">
+								啊微
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img5"></div>
+							<div class="address_font">
+								AS滴酒不沾
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img1"></div>
+							<div class="address_font">
+								好半生醉泪酒一杯
+							</div>
+						</div>
+						<div class="letter flex justify-content">
+							<p>F</p>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img4"></div>
+							<div class="address_font">
+								啊微
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img5"></div>
+							<div class="address_font">
+								AS滴酒不沾
+							</div>
+						</div>
+
+						<div class="address_list flex">
+							<div class="address_imgall" id="address_img1"></div>
+							<div class="address_font">
+								好半生醉泪酒一杯
+							</div>
+						</div>
+						<div class="letter flex justify-content">
+							<p>G</p>
+						</div>
+					</div>
+					<div id="address_right">
+
+						<p>l</p>
+						<p>A</p>
+						<p>B</p>
+						<p>C</p>
+						<p>D</p>
+						<p>E</p>
+						<p>F</p>
+						<p>G</p>
+						<p>H</p>
+						<p>I</p>
+						<p>J</p>
+						<p>K</p>
+						<p>L</p>
+						<p>M</p>
+						<p>N</p>
+						<p>O</p>
+						<p>P</p>
+						<p>Q</p>
+						<p>R</p>
+						<p>S</p>
+						<p>T</p>
+						<p>U</p>
+						<p>V</p>
+						<p>W</p>
+						<p>X</p>
+						<p>Y</p>
+						<p>Z</p>
+						<P>#</P>
+					</div>
+				</div>
+			</div>
+			<!--通讯录结束-->
+			<!--个人资料-->
+			<div id="meall" class="width">
+				<div class="width flex justify-content me_list">
+					<div class="me_left flex">
+						<div class="me_img_1 me_imageall">
+
+						</div>
+						<div class="me_font">
+							<p>小球球</p>
+						</div>
+					</div>
+					<div class="me_right flex">
+						<div class="me_right_imgfirst">
+
+						</div>
+					</div>
+				</div>
+
+				<div class="width flex justify-content find_list">
+					<div class="find_left flex">
+						<div class="find_img_1 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>相册</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+						<div class="find_right_img">
+
+						</div>
+					</div>
+				</div>
+
+				<div class="width flex justify-content find_list margintop">
+					<div class="find_left flex">
+						<div class="find_img_2 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>收藏</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+
+					</div>
+				</div>
+
+				<div class="width flex justify-content find_list">
+					<div class="find_left flex">
+						<div class="find_img_3 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>钱包</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+						<div class="find_right_img">
+
+						</div>
+					</div>
+				</div>
+
+				<div class="width flex justify-content find_list margintop">
+					<div class="find_left flex">
+						<div class="find_img_4 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>卡包</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+
+					</div>
+				</div>
+
+				<div class="width flex justify-content find_list">
+					<div class="find_left flex">
+						<div class="find_img_5 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>表情</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+						<div class="find_right_img">
+
+						</div>
+					</div>
+				</div>
+
+				<div class="width flex justify-content find_list">
+					<div class="find_left flex">
+						<div class="find_img_6 find_imageall">
+
+						</div>
+						<div class="find_font">
+							<p>设置</p>
+						</div>
+					</div>
+					<div class="find_right flex">
+						<div class="find_right_img">
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--个人资料结束-->
+			<!--朋友圈头部开始-->
+			<div id="fhall" class="width">
+				<div id="friendhead" class="width flex justify-bet white">
+					<div id="friendleft" class="flex">
+						<div id="return">
+
+						</div>
+						<div id="headfont">
+							朋友圈
+						</div>
+					</div>
+					<div id="friendright" class="flex">
+						<div id="xiangji">
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--朋友圈头部结束 -->
+			<!--朋友圈内容-->
+			<div id="friend">
+				<div class="width theme">
+					<div id="avt">
+						<p>小球球</p>
+					</div>
+					触碰更换主题模式
+				</div>
+				<div class="width friendcontent" style="margin-top: 35px;">
+					<div class="fcleft flex">
+						<div class="fcleftimg img1">
+
+						</div>
+
+						<div class="fcright">
+							<p class="name">王先生</p>
+							<p>呵呵的！能否快速打开了分类看打开那里卡电脑管理看到哪里哪里难看了国内的开朗看到了</p>
+							<div class="right_img">
+
+							</div>
+							<div class="flex width justify-bet dicuss">
+								<div class="discuss_left">9小时前</div>
+								<div class="discuss_right flex">
+									<div class="discuss_img">
+
+									</div>
+								</div>
+							</div>
+							<div class="reply width">
+								<div class="good flex">
+									<div class="goodimg">
+
+									</div>
+									<p>顾问，秘书</p>
+								</div>
+								顾问：你什么时候做这个了啊. 秘书：经理这是什么情况呢.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="width friendcontent">
+					<div class="fcleft flex">
+						<div class="fcleftimg img2">
+
+						</div>
+
+						<div class="fcright">
+							<p class="name">王先生</p>
+							<p>呵呵的！能否快速打开了分类看打开那里卡电脑管理看到哪里哪里难看了国内的开朗看到了</p>
+							<div class="right_img">
+
+							</div>
+							<div class="flex width justify-bet dicuss">
+								<div class="discuss_left">9小时前</div>
+								<div class="discuss_right flex">
+									<div class="discuss_img">
+
+									</div>
+								</div>
+							</div>
+							<div class="reply width">
+								顾问：你什么时候做这个了啊，你原来不是在哪个那个北京的一个公司上班吗
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--朋友圈内容结束-->
+		</div>
+	</body>
+
+</html>

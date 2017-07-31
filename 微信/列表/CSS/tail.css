@@ -1,0 +1,51 @@
+#meall{
+	height: 100%;
+	margin-top: 67px;
+	display: none;
+}
+.me_list{
+	height: 60px;
+	margin-top: 20px;
+	background-color: white;
+}
+.me_left,.me_right{
+	height: 58px;
+}
+.me_left{
+	width: 45%;
+	align-items: center;
+}
+.me_right{
+	width: 40%;
+	flex-flow: row-reverse wrap;
+	align-items: center;
+}
+.me_right p{
+	font-size: 8px;
+	color: #616161;
+	
+}
+.me_imageall{
+	width: 56px;
+	height: 56px;
+	background-size: contain;
+	background-repeat: no-repeat ;
+}
+.me_img_1{
+	background-image: url(../../img/myimage/头像7.jpg);
+}
+.me_font{
+	width: 65%;
+	height: 58px;
+	line-height: 58px;
+	margin-left: 6%;
+	color: #424242;
+	font-weight: 600;
+	font-size: 12px;
+}
+.me_right_imgfirst{
+	width: 25px;
+	height: 25px;
+	background-image: url(../../img/myimage/二维码.jpg);
+	background-size: contain;
+}
