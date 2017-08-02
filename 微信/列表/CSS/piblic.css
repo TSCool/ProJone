@@ -116,8 +116,15 @@ body{
 #fhall{
 	height: 45px;
 	position: fixed;
+	top: 22px;
+	display: none;
+}
+.chat{
+	height: 45px;
+	position: fixed;
 	top:22px;
 	display: none;
+	z-index: 200;
 }
 #friendhead{
 	height: 45px;
@@ -156,12 +163,21 @@ body{
 	background-repeat: no-repeat ;
 	margin-right: 20px;
 }
+.chatimg{
+	width: 26px;
+	height: 26px;
+	background-image: url(../../img/icon/menu/me-press.svg);
+	background-size: contain;
+	background-repeat: no-repeat ;
+	margin-right: 20px;
+}
 /*底部*/
 #bootall{
 	height: 45px;
 	bottom: 0px;
 	position: fixed;
 	display: inline-block;
+	z-index: 200;
 }
 #boot{
 	height: 45px;
@@ -253,6 +269,9 @@ body{
 }
 #statusbar div:nth-child(2){
 	text-align: center;
+}
+.GG{
+	width: 35%;
 }
 .energy{
 	width: 20px;

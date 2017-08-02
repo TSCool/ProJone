@@ -12,13 +12,14 @@
 	height: 58px;
 }
 .me_left{
-	width: 45%;
+	width: 60%;
 	align-items: center;
 }
 .me_right{
 	width: 40%;
 	flex-flow: row-reverse wrap;
 	align-items: center;
+	margin-right: 10px;
 }
 .me_right p{
 	font-size: 8px;
@@ -32,16 +33,20 @@
 	background-repeat: no-repeat ;
 }
 .me_img_1{
-	background-image: url(../../img/myimage/头像7.jpg);
+	background-image: url(../../img/myimage/头像1.jpg);
 }
 .me_font{
-	width: 65%;
+	width: 85%;
 	height: 58px;
-	line-height: 58px;
-	margin-left: 6%;
+	margin-left: 15px;
 	color: #424242;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 12px;
+	line-height: 17px;
+}
+.me_font p:first-child{
+	margin-top: 11px;
+	width: 100%;
 }
 .me_right_imgfirst{
 	width: 25px;

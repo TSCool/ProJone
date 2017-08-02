@@ -1,0 +1,238 @@
+.chat{height: 45px;
+	position: fixed;
+	top:22px;
+	display: none;
+	z-index: 200;
+}
+.friendhead{
+	height: 45px;
+	background-color: black;
+	opacity: 0.87;
+}
+.friendleft{
+	width: 80%;
+	height: 45px;
+	align-items: center;
+}
+.friendright{
+	width: 19%;
+	height: 45px;
+	align-items: center;
+	flex-flow: row-reverse wrap;
+}
+.return{
+	width: 20px;
+	height: 15px;
+	margin-left: 10px;
+	background-image: url(../../img/icon/material/返回.svg);
+	background-size: contain ;
+}
+.headfont{
+	width: 80%;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 30px;
+}
+.chatimg{
+	width: 26px;
+	height: 26px;
+	background-image: url(../../img/icon/menu/me-press.svg);
+	background-size: contain;
+	background-repeat: no-repeat ;
+	margin-right: 20px;
+}
+
+
+
+
+
+.printall {
+	width: 100%;
+	height: 100%;
+	margin-top: 67px;
+	margin-bottom: 50px;
+	display: none;
+}
+
+.print {
+	width: 100%;
+	height: 100%;
+}
+
+.chatbootall {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0px;
+	z-index: 500;
+	background: white;
+	display: none;
+}
+
+.chatboot {
+	width: 100%;
+	height: 50px;
+	justify-content: space-around;
+}
+
+.chatleft {
+	width: 73%;
+	height: 50px;
+	align-items: center;
+}
+
+.chatright {
+	width: 26%;
+	height: 50px;
+	flex-flow: row-reverse wrap;
+	align-items: center;
+}
+
+.voice {
+	width: 35px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.voiceimg {
+	width: 30px;
+	height: 30px;
+	background-image: url(../../img/myimage/语音.svg);
+	background-size: contain;
+}
+
+.typewrite {
+	width: 85%;
+	height: 35px;
+	border: 0px;
+}
+
+.face {
+	width: 35px;
+	height: 35px;
+	background-image: url(../../img/myimage/笑脸.svg);
+	background-size: contain;
+}
+
+.jiahao {
+	width: 35px;
+	height: 35px;
+	background-image: url(../../img/myimage/加号.svg);
+	background-size: contain;
+}
+
+.time {
+	height: 40px;
+	align-items: center;
+}
+
+.time p {
+	width: 30%;
+	height: 25px;
+	background: #424242;
+	opacity: 0.4;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+}
+
+.he {
+	height: 40px;
+	align-items: center;
+	font-size: 13px;
+}
+
+.heleft,
+.meleft {
+	width: 35px;
+	height: 35px;
+	background-size: contain;
+}
+
+.heleft {
+	margin-left: 5px;
+	background-image: url(../../img/myimage/头像3.jpg);
+	position: relative;
+	left: 0px;
+}
+
+.heright {
+	background: white;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.meright {
+	background: #00C853;
+	margin-right: 10px;
+}
+
+.meleft {
+	margin-right: 5px;
+	background-image: url(../../img/myimage/头像1.jpg);
+}
+
+.heright,
+.meright {
+	height: 35px;
+	line-height: 35px;
+	border-radius: 7px;
+	position: relative;
+	left: 0px;
+}
+
+.me {
+	height: 40px;
+	align-items: center;
+	flex-flow: row-reverse wrap;
+	font-size: 13px;
+}
+
+.chatvoice {
+	width: 45px;
+	height: 25px;
+	background-image: url(../../img/myimage/chat语音.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.sum {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: red;
+	position: relative;
+	left: 150%;
+	top: 7px;
+}
+.sum p {
+	position: relative;
+	left: -15px;
+	top: -13px;
+}
+
+.san {
+	width: 0px;
+	height: 0px;
+	border: 5px #F5F5F5 solid;
+	border-right: 5px white solid;
+	position: absolute;
+	left: 35px;
+	top:10px;
+}
+.sanright{
+	width: 0px;
+	height: 0px;
+	border: 5px #F5F5F5 solid;
+	border-left: 5px #00C853 solid;
+	position: absolute;
+	left: 98%;
+	top:10px;
+}
+.quyu{
+	width: 100%;
+	border: 0px;
+	border-bottom: 1px grey solid;
+}
+

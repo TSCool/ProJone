@@ -1,6 +1,7 @@
 #addall{
 	height: 100%;
 	margin-top: 67px;
+	margin-bottom: 45px;;
 	display:none;
 	width: 100%;
 }
@@ -20,6 +21,9 @@
 	position: fixed;
 	top:67px;
 	right: 0px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
 }
 .letter{
 	height: 20px;
